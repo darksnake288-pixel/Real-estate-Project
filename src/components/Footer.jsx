@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '/home/dark/Real estate/src/assets/favicon.svg' // استبدل المسار بحسب مكان اللوجو لديك
+import Logo from '../assets/favicon.svg' // استبدل المسار بحسب مكان اللوجو لديك
 
 const Footer = () => {
   return (
