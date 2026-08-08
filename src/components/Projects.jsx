@@ -1,10 +1,10 @@
 import React from 'react'
-import Project_1 from '/home/dark/Real estate/src/assets/project_img_1.jpg'
-import Project_2 from '/home/dark/Real estate/src/assets/project_img_2.jpg'
-import Project_3 from '/home/dark/Real estate/src/assets/project_img_3.jpg'
-import Project_4 from '/home/dark/Real estate/src/assets/project_img_4.jpg'
-import Project_5 from '/home/dark/Real estate/src/assets/project_img_5.jpg'
-import Project_6 from '/home/dark/Real estate/src/assets/project_img_6.jpg'
+import Project_1 from '../assets/project_img_1.jpg'
+import Project_2 from '../assets/project_img_2.jpg'
+import Project_3 from '../assets/project_img_3.jpg'
+import Project_4 from '../assets/project_img_4.jpg'
+import Project_5 from '../assets/project_img_5.jpg'
+import Project_6 from '../assets/project_img_6.jpg'
 const Projects = () => {
     const projects = [
         {
