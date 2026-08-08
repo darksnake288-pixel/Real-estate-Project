@@ -1,7 +1,7 @@
 import React from 'react'
-import Profile_1 from '/home/dark/Real estate/src/assets/profile_img_1.png'
-import Profile_2 from '/home/dark/Real estate/src/assets/profile_img_2.png'
-import Profile_3 from '/home/dark/Real estate/src/assets/profile_img_3.png'
+import Profile_1 from '../assets/profile_img_1.png'
+import Profile_2 from '../assets/profile_img_2.png'
+import Profile_3 from '../assets/profile_img_3.png'
 const Customers = () => {
     const testimonials = [
         {
