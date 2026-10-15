@@ -28,10 +28,10 @@ const Customers = () => {
     ]
   return (
     // 1. استخدام flex-col لتنسيق الأقسام رأسياً وتحذيتها في المنتصف
-    <div data-aos="fade-left" className="flex flex-col items-center justify-center pt-13 mt-12 w-full ">
+    <div data-aos="fade-left" className="flex flex-col items-center justify-center pt-13 mt-12 w-full px-6">
       
       {/* 2. العنوان الرئيسي مع الكلمة المكملة له */}
-      <div className="flex items-center gap-2 mb-2">
+      <div className="flex flex-wrap justify-center items-center gap-2 mb-2">
         <h1 className="text-3xl font-semibold">Customers</h1>
         <span className="text-3xl font-light underline underline-offset-4 decoration-1">
           Testimonials
@@ -42,7 +42,7 @@ const Customers = () => {
       <p className="text-center text-gray-500 max-w-md">
         Real Stories from Those Who Found Home with Us
       </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 w-full max-w-6xl">
            {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="flex flex-col items-center gap-2 mt-6 border-hidden p-4 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <img src={testimonial.image} alt={testimonial.name} className="w-16 h-16 rounded-full" />
