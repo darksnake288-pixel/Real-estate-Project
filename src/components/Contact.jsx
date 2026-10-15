@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div data-aos="fade-right" className="flex flex-col items-center justify-center pt-13 mt-12 w-full ">
-      <div className="flex items-center mb-2 gap-2">
+    <div data-aos="fade-right" className="flex flex-col items-center justify-center pt-13 mt-12 w-full px-6">
+      <div className="flex flex-wrap justify-center items-center mb-2 gap-2">
         {/**Text in Center page */}
         <h1 className='text-3xl font-semibold'>Contact</h1>
         <span className='text-3xl font-light underline underline-offset-4 decoration-1'>With US</span>
